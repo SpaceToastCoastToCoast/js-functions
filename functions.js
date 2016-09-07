@@ -174,7 +174,7 @@ function maximum(a, b) {
  */
 
 function isEven(n) {
-  if(n%2) {
+  if(n % 2) {
     return false;
   }
   return true;
@@ -186,6 +186,9 @@ function isEven(n) {
  * @return {boolean} the number is odd
  */
 
+function isOdd(n) {
+  return !isEven(n);
+}
 
 /**
  * Returns a letter grade.
