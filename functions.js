@@ -15,6 +15,10 @@
  * @return {number}
  */
 
+ function increase(n) {
+   return ++n;
+ }
+
 
 /**
  * Subtracts one from a given number.
