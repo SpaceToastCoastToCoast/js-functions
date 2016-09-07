@@ -92,17 +92,17 @@ function square(n) {
 function calculate(operation, x, y) {
   switch(operation) {
     case "add":
-    console.log("" + x + " + " + y + " = " + (x+y));
-    return x + y;
+      console.log("" + x + " + " + y + " = " + (x+y));
+      return x + y;
     case "subtract":
-    console.log("" + x + " - " + y + " = " + (x-y));
-    return x - y;
+      console.log("" + x + " - " + y + " = " + (x-y));
+      return x - y;
     case "multiply":
-    console.log("" + x + " * " + y + " = " + (x*y));
-    return x * y;
+      console.log("" + x + " * " + y + " = " + (x*y));
+      return x * y;
     case "divide":
-    console.log("" + x + " / " + y + " = " + (x/y));
-    return x / y;
+      console.log("" + x + " / " + y + " = " + (x/y));
+      return x / y;
   }
 }
 
@@ -147,7 +147,8 @@ function areEqual(a, b) {
  */
 
 function minimum(a, b) {
-  if(a > b){
+  if(a > b)
+  {
     return b;
   }
   return a;
@@ -161,7 +162,8 @@ function minimum(a, b) {
  */
 
 function maximum(a, b) {
-  if(a < b){
+  if(a < b)
+  {
     return b;
   }
   return a;
@@ -174,7 +176,8 @@ function maximum(a, b) {
  */
 
 function isEven(n) {
-  if(n % 2) {
+  if(n % 2)
+  {
     return false;
   }
   return true;
@@ -203,19 +206,24 @@ function isOdd(n) {
  */
 
 function letterGrade(score, maxScore) {
-  if((score / maxScore) * 100 >= 90) {
+  if((score / maxScore) * 100 >= 90)
+  {
     return "A";
   }
-  else if((score / maxScore) * 100 >= 80) {
+  else if((score / maxScore) * 100 >= 80)
+  {
     return "B";
   }
-  else if((score / maxScore) * 100 >= 70) {
+  else if((score / maxScore) * 100 >= 70)
+  {
     return "C";
   }
-  else if((score / maxScore) * 100 >= 60) {
+  else if((score / maxScore) * 100 >= 60)
+  {
     return "D";
   }
-  else {
+  else
+  {
     return "F";
   }
 }
