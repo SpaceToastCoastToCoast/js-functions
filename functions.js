@@ -173,6 +173,12 @@ function maximum(a, b) {
  * @return {boolean} the number is even
  */
 
+function isEven(n) {
+  if(n%2) {
+    return false;
+  }
+  return true;
+}
 
 /**
  * Returns true if `n` is odd.
