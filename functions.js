@@ -228,6 +228,17 @@ function letterGrade(score, maxScore) {
  * @return {object} restaurant
  */
 
+function incrementReviews(restaurant) {
+  if(restaurant.reviews === undefined)
+  {
+    restaurant.reviews = 1;
+  }
+  else
+  {
+    restaurant.reviews++;
+  }
+  return restaurant;
+}
 
 /**
  * Joins two strings with a space.
