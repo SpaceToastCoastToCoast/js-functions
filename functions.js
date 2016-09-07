@@ -247,6 +247,9 @@ function incrementReviews(restaurant) {
  * @return {string} joined the words joined with a space
  */
 
+function combine(word1, word2) {
+  return word1 + " " + word2;
+}
 
 /**
  * Returns a circle object with the properties `circumference` and `area`.
