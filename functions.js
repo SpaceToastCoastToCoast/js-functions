@@ -4,6 +4,10 @@
  * @return {string} the number as a string
  */
 
+ function numberToString(n) {
+   return "" + n;
+ }
+
 
 /**
  * Adds one to a given number.
