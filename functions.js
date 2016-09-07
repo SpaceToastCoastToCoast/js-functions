@@ -160,6 +160,12 @@ function minimum(a, b) {
  * @return {number} the largest number
  */
 
+function maximum(a, b) {
+  if(a < b){
+    return b;
+  }
+  return a;
+}
 
 /**
  * Returns true if `n` is even.
